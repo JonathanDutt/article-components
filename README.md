@@ -66,9 +66,6 @@ Solve this by determining the number of words in the `<article>` by getting all 
 
 Analyze how an internal `#id` anchor behaves. Consider what your goal is. Ask yourself some relevant questions to help with a solution:
 
-- Can I capture when an element has triggered a `click` event?
-- Can I apply that same functionality to many elements?
-- Where is the anchor pointing?
 - Can I select an element using a dynamic selector string?
 - Can I confirm an element exists?
 - How far from the top of the document is an element?
@@ -76,8 +73,11 @@ Analyze how an internal `#id` anchor behaves. Consider what your goal is. Ask yo
 - How tall is the document?
 - How tall is the window?
 - How much has the window currently been scrolled?
-- Can I scroll to a particular element?
 - Can I scroll to a particular px position?
+- Can I scroll to a particular element?
 - What is the height(s) of any obstruction(s)?
+- Can I capture when an element has triggered a `click` event?
+- Where is an internal anchor pointing?
+- Can I apply that same functionality to many elements?
 - Can I capture window events, like: `scroll`, `resize`, `hashchange`?
 - Can I animate using the browser's framerate?
