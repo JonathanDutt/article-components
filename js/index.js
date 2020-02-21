@@ -1,7 +1,7 @@
 
 
 
-// - Can I select an element by id?
+// - Can I select an element using a dynamic selector string?
 let $goto = document.querySelector('#javascript')
 
 // - Can I confirm an element exists?
@@ -16,7 +16,7 @@ if ($goto) {
 ele.offsetTop
 // - How far from the top of the viewport is an element?
 ele.getBoundingClientRect().top
-// - How tall is the document?
+// - How tall is the document? 
 document.documentElement.scrollHeight
 document.querySelector('html')
 // - How tall is the window?
@@ -39,8 +39,11 @@ ele.getBoundingClientRect().height
 
 // - Where is the anchor pointing?
 
-
+// Can I apply that same functionality to many elements?
+document.querySelectorAll('#')
 // - Can I capture window events, like: `scroll`, `resize`, `hashchange`?
 window.addEventListener('scroll', event => { console.log('scroll') })
 window.addEventListener('resize', event => { console.log('resize') })
 window.addEventListener('hashchange', event => { console.log('hashchange') })
+
+// Can I animate using the browser's framerate?
