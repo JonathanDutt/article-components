@@ -35,15 +35,12 @@ window.scrollTo({left:0, top:0, behavior:'smooth'})
 $goto.getBoundingClientRect().height
 
 // - Can I capture when an element has triggered a `click` event?
-let $link = document.querySelector('.scroll-to')
-$link.addEventListener('click', event => { console.log('click') })
+
 
 // - Where is the anchor pointing?
-$link.getAttribute('href')
 
 
 // - Can I capture window events, like: `scroll`, `resize`, `hashchange`?
 window.addEventListener('scroll', event => { console.log('scroll') })
 window.addEventListener('resize', event => { console.log('resize') })
 window.addEventListener('hashchange', event => { console.log('hashchange') })
-Collapse
