@@ -12,6 +12,7 @@ $win.addEventListener('scroll', event => {
   // Get the textContent from the <h1>
 let titleStr = $h1.textContent
 
+$title.textContent= `${titleStr}`
 let posH = 60
 
 let winScroll = $win.scrollY
