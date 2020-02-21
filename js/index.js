@@ -13,9 +13,9 @@ if ($goto) {
   console.log('was NOT found')
 }
 // - How far from the top of the document is an element?
-$goto.offsetTop
+ele.offsetTop
 // - How far from the top of the viewport is an element?
-$goto.getBoundingClientRect().top
+ele.getBoundingClientRect().top
 // - How tall is the document?
 document.documentElement.scrollHeight
 document.querySelector('html')
@@ -26,13 +26,13 @@ document.documentElement.clientHeight
 window.scrollY
 
 // - Can I scroll to a particular element?
-$goto.scrollIntoView({ behavior:'smooth' })
+ele.scrollIntoView({ behavior:'smooth' })
 
 // - Can I scroll to a particular px position?
 window.scrollTo({left:0, top:0, behavior:'smooth'})
 
 // - What is the height(s) of any obstruction(s)?
-$goto.getBoundingClientRect().height
+ele.getBoundingClientRect().height
 
 // - Can I capture when an element has triggered a `click` event?
 
