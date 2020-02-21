@@ -47,3 +47,5 @@ window.addEventListener('resize', event => { console.log('resize') })
 window.addEventListener('hashchange', event => { console.log('hashchange') })
 
 // Can I animate using the browser's framerate?
+
+let count = 0;

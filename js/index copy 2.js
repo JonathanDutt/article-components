@@ -13,6 +13,7 @@ $win.addEventListener('scroll', event => {
 let titleStr = $h1.textContent
 
 $title.textContent= `${titleStr}`
+
 let posH = 60
 
 let winScroll = $win.scrollY
